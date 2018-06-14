@@ -1,0 +1,148 @@
+/* #61dafb */
+
+html {
+  line-height: 1.15;
+}
+body {
+  background-color: gray;
+  font-family: "Segoe UI", "Roboto", "sans-serif";
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: block;
+}
+.container {
+  background-color: lightgray;
+  height: 100%;
+}
+.header-wrapper {
+  background-color: #20232a;
+  color: #ffffff;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.header {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-content {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  overflow-x: auto;
+  height: 100%;
+  width: 60%;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 300;
+}
+
+.logo { 
+  width: calc(100% / 6);
+  display: flex;
+  align-items: center;
+  color: #61dafb;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.logo > img {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.logo > span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.search-container {
+  width: calc(100% / 6);
+  margin-right: 10px;
+}
+
+.search-container > span {
+  position: relative;
+  display: inline-block;
+}
+.search-container > span > input {
+  background: transparent;
+  border: 0;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: inherit;
+  padding: 5px 5px 5px 29px;
+  background-image: url(/search.png);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.search-container > span > input:focus {
+  outline: 0;
+    background-color: #373940;
+    border-radius: 0.25rem;
+}
+
+header > .additional-content {
+  box-sizing: inherit;
+}
+.version-link {
+  padding: 5px 10px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.repo-link {
+  padding: 5px 10px;
+  margin-left: 10px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.content {
+  color: white;  
+  background-color: #282c34;
+  height: 1000px;
+}
+
+.footer {
+  color: white;
+  height: 544px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  position: relative;
+  bottom: 0;
+  background-color: #20232a;
+  width: 100%;
+}
