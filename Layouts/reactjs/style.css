@@ -126,6 +126,20 @@ nav {
   white-space: nowrap;
   font-size: 14px;
 }
+
+.repo-link > svg {
+vertical-align: -2px;
+color: #6d6d6d;
+}
+
+.fancy:hover {
+  color: #61dafb;
+}
+
+.fancy {
+  transition: color 0.2s ease-out;
+}
+
 .repo-link {
   padding: 5px 10px;
   margin-left: 10px;
